@@ -1,0 +1,15 @@
+{
+  "name": "qiankun-vue-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run dev",
+    "dev":"npm run main & npm run client",
+    "main":"cd packages/vue-project && npm run dev",
+    "client":"cd packages/react && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
